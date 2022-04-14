@@ -6,7 +6,7 @@ import moment from "moment";
 
 function Dashboard(props) {
   const [post, setPost] = useState("");
-  let content = [];  let avgLengths; var aaa;
+  let content = [];  let avgLengths; 
   useEffect(() => {
     register();
   }, []);
@@ -133,8 +133,7 @@ function getMonthlyData(posts)
           }),
           {}
         );
-         
-        console.log(JSON.stringify(shooters));
+        
         if (postsOfMonth.length > 0) {
           
             return {
@@ -162,9 +161,7 @@ totalPostPerMonth.forEach((post) => {
       return pilot.from_id === post.from_id;
     });
   }
-  var aaa = postPerUser.filter(function (post) {
-    return moment(post.created_time).month() == month;
-  });
+ 
 
 });
     return totalPostPerMonth
