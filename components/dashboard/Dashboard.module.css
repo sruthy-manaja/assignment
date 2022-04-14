@@ -1,0 +1,54 @@
+.main {
+    margin: 0 auto;
+    padding: 0;
+    width: 90%;
+  }
+  .main li{
+    list-style:  none;
+  }
+  .author{color: #5c5b5b; margin-bottom: 4px; }
+  .date{color: #5c5b5b;}
+  .pagination{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .pageitem{
+    display: block;
+    width: 100%;
+    background: #333;
+    margin: 4px;
+    padding: 6px 5px;
+    text-align: center;
+    color: #fff;
+  }
+  .pagelink{
+    width: 100%;
+    display: block;
+    cursor: pointer;
+  }
+
+  /* Calculations Style  */
+  
+  .total_post{
+    display: contents;
+  }
+  .total_post  li{
+    display: flex;;
+  }
+  .total_post  li span{
+    width: 20vw;
+    padding: 5px 0;
+  }
+  .total_post li:nth-child(odd){
+    background-color:  #f1f1f1;
+  }
+  .head_item{
+    display: flex;
+    background: #dddddd;
+    width: 100%;
+    padding: 6px 0;
+  }

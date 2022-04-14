@@ -1,10 +1,10 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Calculations from '../components/dashboard/Calculations'
 import Dashboard from '../components/dashboard/Dashboard'
-import ListPost from '../components/dashboard/ListPost'
 import Layout from '../components/layout/Layout'
 
-export default function Home() {
+export default function Index() {
   return (
     <div>
       <Head>
@@ -14,8 +14,8 @@ export default function Home() {
       </Head>
 
       <Layout>
-        <h1>All Post</h1>
-       <ListPost/>
+        <h1>Dashboard page</h1>
+        <Calculations />
       </Layout>
 
       <footer>

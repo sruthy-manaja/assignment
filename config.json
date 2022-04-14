@@ -1,0 +1,24 @@
+{
+    "months": [
+        "jan",
+        "feb",
+        "mar",
+        "apr",
+        "may",
+        "jun",
+        "jul",
+        "aug",
+        "sep",
+        "oct",
+        "nov",
+        "dec"
+    ],
+    "registrationPayload": {
+        "client_id": "ju16a6m81mhid5ue1z3v2g0uh",
+        "email": "sruthymadhavakurup@gmail.com",
+        "name": "Sruthy"
+    },
+    "registrationEndpoint": "https://api.supermetrics.com/assignment/register",
+    "postsEndpoint": "https://api.supermetrics.com/assignment/posts",
+    "startingPage": 0
+}
